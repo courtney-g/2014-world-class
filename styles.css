@@ -1,0 +1,371 @@
+/*RESET CSS*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+        user-select: none;
+        -ms-user-select:none;
+        -o-user-select: none;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ----------------- END RESET OF CSS ----------------------*/
+
+body {
+	background-color: #999999;
+}
+
+h1 {
+	font-size: 3em;
+	height: 2em;
+}
+
+table, td, th {
+	padding: 4px;
+}
+
+th, #rowHead {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+td.tborder {
+	border: 1px solid black;
+	padding: 4px;
+}
+
+tr.rowband {
+	background-color: #67E667;
+}
+
+select {
+	font-size: 1em;
+	margin-bottom: 8px;
+}
+
+button {
+	padding: 25px;
+	font-size: 3em;
+	box-shadow: 0px 0px 5px 5px #67E667;
+}
+
+button.invalid {
+	padding: 25px;
+	font-size: 3em;
+	box-shadow: 0px 0px 5px 5px red;
+}
+
+button.valid {
+	padding: 25px;
+	font-size: 3em;
+	box-shadow: 0px 0px 5px 5px green;
+}
+
+button.start {
+	padding: 3px;
+	font-size: 1em;
+}
+
+#reset_form {
+    padding: 2px 5px 2px 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /*padding-bottom: 2px;*/
+    /*padding-top: 2px;*/
+    font-size: 1em;
+    box-shadow: none;
+}
+
+#set_defaults {
+    padding: 2px 5px 2px 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /*padding-bottom: 2px;*/
+    /*padding-top: 2px;*/
+    font-size: 1em;
+    box-shadow: none;
+}
+
+em {
+	font-style: italic;
+}
+
+#container {
+	display: table;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+#cell {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#content {
+	display: block;
+	padding: 4px;
+	text-align: left;
+	background-color: #E6E6E6;
+	box-shadow: 0px 0px 10px 10px #E6E6E6;
+}
+
+#error_status {
+    padding-left: 15px;
+    font-size: 2em;
+    color: red
+}
+
+.qsection {
+    padding: 5px 6px 5px 8px;
+    border-radius: 15px;
+    margin: 5px 0px 7px 0px;
+    border-radius: 15px;
+    border: 3px;
+    border-color: rgb(17, 53, 80);
+    border-style: groove;
+}
+.qdiv {
+    padding: 10px 5px;
+}
+
+.qdone {
+    background-color: #C4FAC4;
+}
+
+.qwarn {
+    background-color: lightyellow;
+}
+
+.qerror {
+    background-color: red;
+}
+
+.qhidden {
+    display: none;
+}
+
+.qinline {
+    display: inline;
+}
+
+.warn {
+    font-weight: bold;
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+
+.old {
+    font-weight: normal;
+    font-size: 1em;
+    vertical-align: middle;
+}
+
+#timeData {
+	font-size: 5em;
+}
+
+#jumpMenu {
+	position: absolute;
+	padding: 5px;
+	float: left;
+	z-index: 1;
+
+}
+
+#matchTimeHeader {
+	text-align: center;
+	font-size: 1.75em;
+	padding: 5px;
+	margin-bottom: 0.5em;
+}
+
+#CurrentScore {
+	font-size: 2.75em;
+}
+
+.errors {
+	font-size: 1em;
+}
+
+
+.centerdHeader {
+	font-size: 3em;
+	text-align: center;
+}
+
+.errorHeader {
+	font-size: 3em;
+        color: red;
+	text-align: center;
+}
+
+a.biglinks {
+	display: inline-block;
+	font-size: 25px;
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #E66666;
+	box-shadow: 0px 0px 5px 5px #E66666;	
+	padding: 4px;
+	margin: 10px;
+}
+
+.bordered {
+	border: 1px solid black;
+	text-align: center;
+}
+
+a.button {
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 25px;
+	padding: 3px;
+	background-color: #E66666;
+	box-shadow: 0px 0px 5px 5px #E66666;
+	margin: 15px;
+}
+
+#header {
+    /* Provide scrollbars if needed and fix the header dimensions */
+    overflow: auto;
+    position: absolute;
+    width: 100%;
+}
+.header-normal {
+    height: 110px;
+}
+.header-error {
+    height: 150px;
+}
+
+#left-header {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    display: inline-block;
+    width: 25%;
+}
+
+#mid-header {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    width: 49%;
+}
+
+#mid-header-title {
+    font-size: 2em;
+}
+
+#right-header {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    display: inline-block;
+    width: 25%;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#main {
+    /* Provide scrollbars if needed, position below header, and derive height from top/bottom */
+    overflow: auto;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.main-normal {
+    top: 110px;
+}
+.main-error {
+    top: 150px;
+}
+
+#fll_title
+{
+	float: left;
+	width: 542px;
+	background-color: #999999;
+	font-size: 2em;
+	color: #000000;
+	text-align: center;
+}
+#team_name_header
+{
+	font-size: 1.5em;
+        text-align: center;
+}
+#score_header
+{
+	float: left;
+	width: 299px;
+	background-color: #999999;
+	font-size: 3em;
+	text-align: center;
+}
+#error_status
+{
+	font-size: 2.5em;
+        padding-top: 0px;
+}
+#current_time
+{
+    padding: 10px;
+    font-size: 1em;
+}
+#current_match
+{
+    padding: 10px;
+    font-size: 1em;
+}
+#node8
+{
+	background-color: #162934;
+}

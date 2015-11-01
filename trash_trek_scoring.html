@@ -40,6 +40,10 @@
             var errString = "\n";
             submitScoreForm();
         }
+        
+        function isEmpty(val){
+            return (val === undefined || val == null || val.length <= 0) ? true : false;
+        }
 
         function normalize(string) {
             string = string.replace(/ /g, "_");
@@ -342,7 +346,7 @@
             <div id="mid-header" align="center">
                 <div id="mid-header-title">
                     <em>FIRST<sup>&reg;</sup></em> LEGO<sup>&reg;</sup> League <br />
-                    FLL WORLD CLASS<sup>(SM)</sup> Score Sheet
+                    Trash Trek<sup>(SM)</sup> Score Sheet
                 </div>
             </div>
             <div id="right-header" style="margin-top: 0px; margin-bottom: 0px; padding: 0px;">
